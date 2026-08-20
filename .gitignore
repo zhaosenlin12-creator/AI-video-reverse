@@ -1,0 +1,51 @@
+# 敏感文件 / 临时数据
+config.json
+tools/data/
+tools/last_crawl.log
+
+# MediaCrawler 输出
+tools/MediaCrawler/data/
+tools/MediaCrawler/.env
+tools/MediaCrawler_user_data_dir/
+tools/MediaCrawler_*_user_data_dir/
+
+# Chrome 用户数据
+tools/chrome_debug_profile/
+**/chrome_debug_profile/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node (如果用)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 用户专属
+private/
+drafts/
+
+scratch/
+
+
+# MediaCrawler (clone separately, see README)
+tools/MediaCrawler/
+
+
+# 原始视频素材（不 commit）
+video/*_raw.mp4
+video/*_raw.*
+

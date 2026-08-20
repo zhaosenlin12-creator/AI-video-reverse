@@ -1,0 +1,48 @@
+{
+  "account": {
+    "douyin_sec_uid": "MS4wLjABAAAAQg5TgrTfWN0FphobcDhritBsLl8V3SS5H3ckUfdrXrI",
+    "douyin_handle": "zl_20201120",
+    "display_name": "AI四小只",
+    "xhs_user_id": "",
+    "bilibili_uid": ""
+  },
+  "platforms": {
+    "douyin": { "enabled": true, "crawler_type": "creator" },
+    "xhs": { "enabled": false }
+  },
+  "schedule": {
+    "fetch_interval_hours": 24,
+    "retest_interval_weeks": 4,
+    "videos_per_week": 3,
+    "types_rotation": ["入门型", "实测型", "提示词型"]
+  },
+  "weights": {
+    "赛道匹配": 4,
+    "关键词热度": 3,
+    "上升趋势": 3,
+    "爆款特征匹配": 4,
+    "拍摄可行性": 2,
+    "排重": 3
+  },
+  "scoring_thresholds": {
+    "tier_high": 14,
+    "tier_mid": 12,
+    "tier_low": 10
+  },
+  "chrome": {
+    "debug_port": 9222,
+    "user_data_dir": "%LOCALAPPDATA%\\Temp\\chrome_debug_profile",
+    "path_windows": "C:\\Program Files\\Google\Chrome\\Application\\chrome.exe",
+    "path_macos": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "path_linux": "/usr/bin/google-chrome"
+  },
+  "data_paths": {
+    "creator_data": "./tools/data/creator",
+    "hotlist_data": "./tools/data/hotlist",
+    "scripts_output": "./video"
+  },
+  "search_keywords": {
+    "douyin": "AI工具,AI编程,WorkBuddy,AI Agent",
+    "xhs": "AI工具,AI编程,WorkBuddy,提示词"
+  }
+}
